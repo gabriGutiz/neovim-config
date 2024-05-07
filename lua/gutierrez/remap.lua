@@ -14,6 +14,9 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration)
 vim.keymap.set("n", "gd", vim.lsp.buf.definition)
+vim.keymap.set("n", "gi", vim.lsp.buf.implementation)
+vim.keymap.set("n", "gu", vim.lsp.buf.references)
+vim.keymap.set("n", "rr", vim.lsp.buf.rename)
 
 vim.keymap.set("i", "kk", "<C-c>")
 
