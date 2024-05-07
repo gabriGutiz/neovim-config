@@ -8,7 +8,7 @@ local opt = vim.opt
 ----------------------------------------------------------
 -- Colorscheme
 ----------------------------------------------------------
-vim.cmd("colorscheme rose-pine-moon")
+vim.cmd.colorscheme("rose-pine-moon")
 
 ----------------------------------------------------------
 -- Folder navigation style
