@@ -6,6 +6,8 @@ vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>sq", ":wq<CR>")
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 vim.keymap.set("n", "<leader>fq", ":qa!<CR>")
+vim.keymap.set("n", "<leader>o", "<C-o>")
+vim.keymap.set("n", "<leader>i", "<C-i>")
 
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
