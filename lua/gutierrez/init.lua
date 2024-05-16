@@ -25,6 +25,7 @@ opt.colorcolumn = "90"   -- column maker
 opt.ignorecase = true    -- ignore case letters for seach
 
 vim.wo.relativenumber = true
+vim.wo.number = true
 
 ----------------------------------------------------------
 -- Tabs and ident
