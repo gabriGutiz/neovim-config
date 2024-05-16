@@ -18,5 +18,7 @@ vim.keymap.set("n", "gi", vim.lsp.buf.implementation)
 vim.keymap.set("n", "gu", vim.lsp.buf.references)
 vim.keymap.set("n", "rr", vim.lsp.buf.rename)
 
+vim.keymap.set("t", "<C-w>", "<C-\\><C-n>")
+
 vim.keymap.set("i", "kk", "<C-c>")
 
