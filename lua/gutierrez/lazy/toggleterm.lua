@@ -6,6 +6,8 @@ return {
         require('toggleterm').setup({
         })
 
-        vim.keymap.set({'n', 'i'}, '<C-t>', [[:ToggleTerm direction=float size=50<CR>]], { silent = true })
+        vim.keymap.set({'n', 'i'}, '<C-t>', function ()
+            vim.cmd(':ToggleTerm direction=float size=50<CR>')
+        end, { silent = true })
     end
 }
