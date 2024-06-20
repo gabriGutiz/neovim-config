@@ -29,6 +29,10 @@ return {
         vim.keymap.set('n', '<leader>fs', function()
             builtin.grep_string({ search = vim.fn.input("grep > ") })
         end)
+        vim.keymap.set('n', '<leader>fu', builtin.lsp_references, {})
+        vim.keymap.set('n', '<leader>fb', function()
+            builtin.buffers({ sort_mru=true, ignore_current_buffer=true })
+        end, {})
     end
 }
 
