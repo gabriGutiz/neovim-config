@@ -7,7 +7,7 @@ return {
         })
 
         vim.keymap.set({'n', 'i'}, '<C-t>', function ()
-            vim.cmd(':ToggleTerm direction=float size=50<CR>')
+            vim.cmd(':ToggleTerm direction=tab')
         end, { silent = true })
     end
 }
