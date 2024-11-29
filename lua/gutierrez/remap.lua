@@ -24,3 +24,5 @@ vim.keymap.set("t", "<C-w>", "<C-\\><C-n>")
 
 vim.keymap.set("i", "kk", "<C-c>")
 
+vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end)
+
