@@ -6,7 +6,7 @@ return {
         require('toggleterm').setup({
         })
 
-        vim.keymap.set({'n', 'i'}, '<C-t>', function ()
+        vim.keymap.set({'n', 'i', 't'}, '<C-t>', function ()
             vim.cmd(':ToggleTerm direction=tab')
         end, { silent = true })
     end
