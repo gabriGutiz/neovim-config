@@ -9,7 +9,8 @@ return {
                     command = "ls -al",
                     buffer = true
                 }
-            }
+            },
+            execute_key = "e"
         })
     end
 }
